@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تدریس خصوصی</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0e6dc; /* پس‌زمینه قهوه‌ای روشن */
+            line-height: 1.6;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background-color: #3e2f2f; /* قهوه‌ای تیره */
+            color: #f0e6dc; /* روشن */
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0 0 20px 0;
+            font-size: 2.8em; /* بزرگ‌تر شد */
+        }
+        header p {
+            margin: 8px 0;
+            font-size: 1.3em; /* بزرگ‌تر شد */
+        }
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2em; /* کمی بزرگ‌تر */
+            color: #3e2f2f;
+        }
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .course-card {
+            background-color: #3e2f2f;
+            color: #f0e6dc;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            width: 300px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+        .course-card h3 {
+            margin-top: 0;
+            font-size: 1.5em;
+        }
+        .about, .contact {
+            background-color: #3e2f2f;
+            color: #f0e6dc;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            font-size: 1.2em; /* فونت بزرگ‌تر */
+        }
+        footer {
+            background-color: #3e2f2f;
+            color: #f0e6dc;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .courses {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>، خوش آمدید به سایت تدریس خصوصی</h1>
+        <p>تدریس فیزیک و ریاضی</p>
+        <p>در ساری (شهرهای مرکزی مازندران) به شکل حضوری و در سایر شهرها به صورت آنلاین</p>
+    </header>
+
+    <main>
+        <section class="courses-section">
+            <h2 class="section-title">دوره‌ها</h2>
+            <div class="courses">
+                <div class="course-card">
+                    <h3>ریاضی پایه</h3>
+                    <p>آموزش مفهومی ریاضی پایه با تمرین‌های هدفمند و جذاب.</p>
+                </div>
+                <div class="course-card">
+                    <h3>فیزیک پایه دبیرستان و کنکور</h3>
+                    <p>تاکید بر فراگیری مفاهیم و حل مثال‌های متنوع.</p>
+                </div>
+                <div class="course-card">
+                    <h3>فیزیک دانشگاه</h3>
+                    <p>فیزیک پایه، مکانیک کوانتوم، مکانیک آماری،ریاضی فیزیک و الکترومغناطیس.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2 class="section-title">درباره من</h2>
+            <p>ترم آخر دکتری فیزیک شهید بهشتی، علاقمند به علوم و یادگیری و تدریس و با تجربه در تدریس ریاضیات و فیزیک از دبیرستان تا کنکور ارشد.</p>
+            <p>اگر بلندپروازی علمی داری و فکر می کنی کسی می تونه در رسیدن به آرزوهات کمکت کنه، درنگ نکن.</p>
+        </section>
+
+        <section class="contact">
+            <h2 class="section-title">تماس با من</h2>
+            <p>برای اطلاعات بیشتر و هماهنگی کلاس‌ها با شماره زیر تماس بگیرید:</p>
+            <p>09372200852 - 09200604852</p>
+            <p>ایمیل: a.ahangari1361@gmail.com</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 تدریس خصوصی | همه حقوق محفوظ است
+    </footer>
+</body>
+</html>
